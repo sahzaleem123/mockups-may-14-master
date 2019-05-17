@@ -1,0 +1,88 @@
+/* write your styles here */
+marquee{
+    background-color:#ed484c; 
+    color: white;
+    padding: 5px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    margin: 0%;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    background-color: #4c4c4c;
+}
+header > img{
+    padding-block-start: 7px;
+    padding-block-end: 7px;
+    width: auto;
+    height: 40px;
+    padding-inline-start: 20px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+nav li{
+    padding: 0px 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav li a{
+    text-decoration: none;
+    color: #c6c6c6;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+h1{
+    font-size: -webkit-xxx-large;
+    
+}
+.Same-parg{
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px 0px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+}
+
+main button{
+    border: none;
+    background-color: black;
+    padding: 15px 60px;
+    font-size: large;
+    color: #f18c97;
+}
+main button:hover{
+    cursor: pointer;
+}
+.service-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service div{
+    display: flex;
+    justify-content: center;
+}
+.service-content figure{
+    text-align: center;
+
+}
+.service-content figure > i{
+    font-size: 90px;
+}
+
+
