@@ -33,6 +33,9 @@ nav li a{
     text-decoration: none;
     color: #c6c6c6;
 }
+nav li a:hover{
+    color: white;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -50,29 +53,36 @@ main{
 }
 h1{
     font-size: -webkit-xxx-large;
-    
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 20px;    
 }
 .same-parg{
     text-align: center;
     border-top: 1px solid;
     border-bottom: 1px solid;
     padding: 10px 0px;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 600;
 }
 
 .join-us button{
     border: none;
+    font-family: 'Bree Serif', serif;
     background-color: black;
     padding: 15px 60px;
-    font-size: large;
+    font-size: larger;
     color: #f18c97;
 }
 .join-us button:hover{
     cursor: pointer;
+    background-color: #e7e3de;
 }
 h2{
-    
+    font-family: 'Caveat Brush', cursive;
+    font-size: xx-large; 
+}
+h3{
+    font-family: 'Bree Serif', serif;
 }
 .service {
     background-image: url(images/floral.png);
@@ -94,6 +104,10 @@ h2{
 }
 .service i:hover{
     color: rgb(236, 72, 72);
+}
+.service figcaption p{
+    font-family: 'Cabin', sans-serif;
+    font-size: 14px;
 }
 .portfolio{
     background-image: url(images/floral.png);
@@ -146,12 +160,15 @@ footer{
     font-size: 17px;
     padding: 5px 0px;
 }
-#icon i{
+footer p{
+    font-family: 'Hammersmith One', sans-serif;
+    margin: 15px 0px;
+}
+footer i{
     padding: 0px 5px;
 }
-#icon:hover i{
+footer:hover i{
     color: red;
-
 }
 
 
