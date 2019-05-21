@@ -76,6 +76,7 @@ h1{
 .join-us button:hover{
     cursor: pointer;
     background-color: #e7e3de;
+    transition: 0.5s;
 }
 h2{
     font-family: 'Caveat Brush', cursive;
@@ -103,6 +104,7 @@ h3{
     font-size: 90px;
 }
 .service i:hover{
+    transition: 0.3s;
     color: rgb(236, 72, 72);
 }
 .service figcaption p{
@@ -127,8 +129,38 @@ h3{
     display: flex;
     justify-content: center;
 }
-.portfolio figure{
-    display: inline-block;
+.portfolio figcaption button{
+    font-size: 15px;
+    padding: 8px 9px;
+    border-radius: 30px;
+    background-color: rgba(175, 199, 198, 0);
+    border: white solid 1px;
+    margin-right: 10px;
+    color: white;
+}
+.row-1 figure:hover figcaption{
+    display: block;
+    position: relative;
+    top: -161px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 24px 29px 33px 27px;
+    border-radius: 12px;
+}
+.row-2 figure:hover figcaption{
+    display: block;
+    position: relative;
+    top: -161px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 24px 30px 33px 27px;
+    border-radius: 12px; 
+}
+h4{
+    font-family: 'Bree Serif', serif;
+    color: white;
+}
+.portfolio figcaption{
+    text-align: center;
+    display: none
 }
 .contact-us{
     display: flex;
@@ -144,13 +176,14 @@ h3{
     font-size: 23px;
     padding: 10px 11px;
     border-radius: 30px;
-    background-color: #afc7c6;
+    background-color: rgba(175, 199, 198, 0);
     border: #5a6464 solid 1px;
     margin-right: 10px;
 }
 .contact-us button:hover{
     color: #fcdea6;
     background-color: #222222;
+    transition: 1s;
 }
 footer{
     display: flex;
@@ -165,7 +198,9 @@ footer p{
     margin: 15px 0px;
 }
 footer i{
+    font-size: 19px;
     padding: 0px 5px;
+    transition: 0.5s;
 }
 footer:hover i{
     color: red;
