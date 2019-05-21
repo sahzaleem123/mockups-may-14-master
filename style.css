@@ -124,7 +124,7 @@ h3{
     height: 155px;
     width: 200px;
 }
-.portfolio div{
+.portfolio-content div{
     display: flex;
     justify-content: center;
 }
@@ -143,7 +143,8 @@ h3{
 }
 .portfolio figcaption button:hover{
     color: #fcdea6;
-    background-color: #222222;
+    background-color: #585858db;
+    border-color:#fcdea6;
 }
 .portfolio figcaption button{
     font-size: 15px;
@@ -205,5 +206,49 @@ footer i{
 footer:hover i{
     color: red;
 }
+@media screen and (min-width:426px) and (max-width: 768px){
+    .service div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .portfolio-content{
+        display: flex;
+        justify-content: center;
+    }
+    .portfolio-content div{
+        display: block;
+        
+    }
+}
+@media screen and (min-width:320px) and (max-width: 425px){
+    header > img {
+        padding-block-start: 6px;
+        padding-block-end: 4px;
+        width: 55px;
+        height: 35px;
+        padding-inline-start: 6px;
+    }
+    nav ul{
+        margin: 10px 0px;
+    }
+    nav li {
+        padding: 0px 5px;
+    }
+    .service div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .portfolio-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .portfolio-content div{
+        display: block;
+        
+    }
 
+}
 
